@@ -1,0 +1,40 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "name": "Student Performance Dataset (Deidentified)",
+    "creator": {
+        "name": "Seokhyun (Jason) Lee",
+        "affiliation": "UIUC"
+    },
+    "description": "This dataset captures demographic, study, and activity factors influencing GPA and grade classification.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "version": "1.0",
+    "keywords": [
+        "education",
+        "student performance",
+        "GPA",
+        "machine learning"
+    ],
+    "datePublished": "2025-10-12",
+    "variableMeasured": [
+        "Age",
+        "Gender",
+        "Ethnicity",
+        "ParentalEducation",
+        "StudyTimeWeekly",
+        "Absences",
+        "Tutoring",
+        "ParentalSupport",
+        "Extracurricular",
+        "Sports",
+        "Music",
+        "Volunteering",
+        "GPA",
+        "GradeClass"
+    ],
+    "distribution": {
+        "@type": "DataDownload",
+        "encodingFormat": "text/csv",
+        "contentUrl": "data/processed/StudentsPerformance_deidentified.csv"
+    }
+}
