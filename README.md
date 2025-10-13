@@ -1,7 +1,5 @@
 # student-performance-curation
 Curation of a Student Performance Dataset for Educational Analytics
-# Student Performance Data Curation Project
-
 This repository contains the data curation workflow developed for **Foundations of Data Curation**.
 
 ## Project Overview
