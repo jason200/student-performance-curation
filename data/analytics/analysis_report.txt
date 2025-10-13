@@ -1,0 +1,56 @@
+Analytic Verification of Curated Dataset
+========================================
+
+Correlation with GPA (Pearson):
+GPA                  1.000000
+ParentalSupport      0.190774
+StudyTimeWeekly      0.179275
+Tutoring             0.145119
+Extracurricular      0.094078
+Music                0.073318
+Sports               0.057859
+Ethnicity            0.027760
+Volunteering         0.003258
+Age                  0.000275
+Gender              -0.013360
+ParentalEducation   -0.035854
+GradeClass          -0.782835
+Absences            -0.919314
+Name: GPA, dtype: float64
+
+Mean GPA by Gender:
+   Gender       GPA
+0       0  1.918679
+1       1  1.894225
+
+Mean GPA by ParentalSupport:
+   ParentalSupport       GPA
+0                0  1.540128
+1                1  1.755700
+2                2  1.884246
+3                3  2.042409
+4                4  2.191545
+
+Mean GPA by Extracurricular:
+   Extracurricular       GPA
+0                0  1.838316
+1                1  2.015357
+
+Mean GPA by Sports:
+   Sports       GPA
+0       0  1.871240
+1       1  1.986381
+
+Mean GPA by Music:
+   Music       GPA
+0      0  1.872969
+1      1  2.041664
+
+Mean GPA by Volunteering:
+   Volunteering       GPA
+0             0  1.904899
+1             1  1.913089
+
+Visualization files:
+- data/analytics/gpa_correlation_heatmap.png
+- data/analytics/gpa_studytime_relationship.png
