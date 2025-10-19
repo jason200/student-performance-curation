@@ -1,4 +1,5 @@
-# student-performance-curation
+## CS598 Project - Seokhyun Lee (sl251@illinois.edu)
+# student-performance-curation 
 Curation of a Student Performance Dataset for Educational Analytics
 This repository contains the data curation workflow developed for **Foundations of Data Curation**.
 
